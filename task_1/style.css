@@ -1,0 +1,70 @@
+.main-wrapper{
+	width: 850px;
+}
+
+.forms-wrapper{
+	display: inline-block;
+}
+
+.caption{
+	text-align: center;
+	color: #48BF72;
+}
+
+.message-form, .login-form, .email-form{
+	display: inline-block;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-bottom: 20px; 
+}
+
+.login-form_input{
+	background-image: url("images/icon/icon-user.png");
+}
+
+.email-form_input{
+	background-image: url("images/icon/icon-email.png");   
+}
+
+.login-form_input, .email-form_input{
+	height: 30px;
+	width: 180px;
+}
+
+.message-form_input{
+	background-image: url("images/icon/icon-message.png");
+	height: 150px;	
+	width: 445px;
+	padding-top: 10px;
+}
+
+.login-form_input, .email-form_input, .message-form_input{
+	border: 1px solid #3C4854;
+	background-size: contain; 
+	outline: none;
+    background-repeat: no-repeat; /*Убираем повтор изображения*/   
+    background-position: 0px; /*Позиционируем*/   
+    -moz-border-radius: 2px; /*закругляем углы для Mozilla*/  
+    -webkit-border-radius: 2px; /*закругляем углы для Chrome, Safari*/   
+    border-radius: 2px; /*закругляем углы для остальных браузеров*/  
+    padding-left: 50px; /*отступ слева от ввода, чтобы текст не был на картинке(выбирать по размеру картинки)*/   
+    font-size: 12px; /*размер шрифта*/
+}
+
+.button-form-send{
+	text-align: center;
+}
+
+.button-form-send_input{
+	width: 250px;
+	border: none;
+	color: #FFFFFF;
+	height: 30px;
+	background: #48BF72;
+	-moz-border-radius: 2px; /*закругляем углы для Mozilla*/  
+    -webkit-border-radius: 2px; /*закругляем углы для Chrome, Safari*/   
+    border-radius: 2px; /*закругляем углы для остальных браузеров*/  
+    outline: none;
+    font-size: 10px;
+    width: 500px;
+}
