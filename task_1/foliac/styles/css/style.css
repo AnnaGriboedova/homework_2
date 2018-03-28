@@ -1,0 +1,198 @@
+.all_body{
+    margin: 0 0;
+}
+.global-wrapper {
+    font-family: Microsoft Sans Serif, Arial, Lucida Sans Unicode, sans-serif;
+}
+.content {
+    min-height: calc(100vh - 120px);
+}
+.intro-wrapper {
+    background:
+        linear-gradient(
+          rgba(82,93,104, 0.8), 
+          rgba(82,93,104, 0.8)
+        ),
+        
+        url(../../images/fons/comp.png) no-repeat;
+
+    background-size: cover;
+    padding-bottom: 70px; 
+}
+.intro-aligning {
+    text-align: justify;
+    padding: 15px 15%;
+}
+.logo, .nav-form {
+    display: inline-block;
+    vertical-align: middle;
+}
+.header::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+.logo {
+    text-align: left;
+    padding-top: 0.5em;
+}
+.nav-form_link {
+    color: white;
+    text-decoration: none;
+}
+.nav-form_link:after {
+    content: '/'; 
+    color: rgba(255,255,255,0.3);
+    margin-left: 30px;
+    margin-right: 30px; 
+}
+.nav-form_link:last-child:after {
+    content: '';
+    margin-left: 0px;
+    margin-right: 0px; 
+}
+h1,h2[class^="heading-main-"] {
+    color: #fff;
+    text-align: center;
+}
+.heading-main-ferst {
+    font-family: Arial Black;
+}
+.heading-main-second {
+    font-weight: 100;
+}
+.heading-main_button {
+    display:block;
+    margin:0 auto;
+    width: 130px;
+    padding: 8px;
+    color: #48BF72;
+    border: 2px solid #48BF72;
+    outline: none;
+    background-color: transparent;
+}
+.caption {
+    text-align: center;
+    color: #48BF72;
+}
+.message-form, .login-form, .email-form {
+    display: inline-block;
+    padding: 0 15px;
+    margin-bottom: 20px; 
+}
+.login-form_input {
+    background-image: url("../../images/icons/icon-user.png");
+}
+.email-form_input {
+    background-image: url("../../images/icons/icon-email.png");   
+}
+.login-form_input, .email-form_input{
+    height: 30px;
+    width: 180px;
+}
+.message-form_input {
+    background-image: url("../../images/icons/icon-message.png");
+    height: 150px;  
+    width: 445px;
+    padding-top: 10px;
+}
+.login-form_input, .email-form_input, .message-form_input {
+    border: 1px solid #3C4854;
+    background-size: contain; 
+    outline: none;
+    background-repeat: no-repeat; 
+    padding-left: 50px;     
+    font-size: 12px; 
+}
+.button-form-send {
+    text-align: center;
+}
+.button-form-send_input {
+    width: 250px;
+    border: none;
+    color: #FFFFFF;
+    height: 30px;
+    background: #48BF72;
+    outline: none;
+    font-size: 10px;
+    width: 500px;
+}
+.heading-main_button, .login-form_input, .email-form_input, .message-form_input, .button-form-send_input {
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+.align_center {
+    position: relative;
+    width: 100%;
+}
+.align_center:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.align_center_to_left {
+    position: relative;
+    right: 50%;
+    float: right;
+}
+.align_center_to_right {
+    position: relative;
+    z-index: 1;
+    right: -50%;
+}
+.footer {
+    padding: 15px 15%;
+    background: #3C4955;
+    color: #fff;
+    height: 120px;
+}
+.footer:before {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    content: "";
+}
+.footer-text {
+    display: inline-block;
+    vertical-align: middle;
+}
+.soc-network {   
+    height: 60px;
+    float: right;
+    margin: 30px 0;
+}
+.icon {
+    width: 50px;
+    height: 55px;
+    background: url("../../images/icons/sprite.png") no-repeat;
+}
+.icon-tvitter {
+    background-position: 0 0;
+}
+.icon-linkedIn {
+    background-position: -50px 0;
+}
+.icon-dribbble {
+    background-position: -100px 0;
+}
+.icon-behance {
+    background-position: -150px 0;
+}
+.soc-network_ul-list {
+    margin: 0;
+    padding: 4px;
+    height: 60px;
+}
+.soc-network_line-list {
+    display: inline-block; 
+    margin-right: 30px;
+}
+.soc-network_line-list:last-child {
+    margin-right: 0px;
+}
+a[class$="network-link"] {
+    display: block;
+    width: 50px;
+    height: 55px;
+}
